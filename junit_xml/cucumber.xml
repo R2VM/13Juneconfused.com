@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="39.343746">
+<testcase classname="Verify Play sample application - Computers Database features" name="User to validate Add functionality" time="11.337105">
+<system-out><![CDATA[Given user navigates to url "http://computer-database.herokuapp.com/computers?f=ace".passed
+When user clicks on Add new Computer button.................................passed
+Then Add Computer webpage dispalys..........................................passed
+And user enters "Vivek Computer", "2010-08-14", "2021-08-14"................passed
+Then user clicks Create this computer button................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Play sample application - Computers Database features" name="User to validate Add functionality 2" time="9.810332">
+<system-out><![CDATA[Given user navigates to url "http://computer-database.herokuapp.com/computers?f=ace".passed
+When user clicks on Add new Computer button.................................passed
+Then Add Computer webpage dispalys..........................................passed
+And user enters "Vivek2 Computer", "2011-08-14", "2021-08-14"...............passed
+Then user clicks Create this computer button................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify Play sample application - Computers Database features" name="User to validate Add functionality 3" time="18.196309">
+<system-out><![CDATA[Given user navigates to url "http://computer-database.herokuapp.com/computers?f=ace".passed
+When user clicks on Add new Computer button.................................passed
+Then Add Computer webpage dispalys..........................................passed
+And user enters "Vivek3 Computer", "2012-08-14", "2021-08-14"...............passed
+Then user clicks Create this computer button................................passed
+]]></system-out>
+</testcase>
+</testsuite>

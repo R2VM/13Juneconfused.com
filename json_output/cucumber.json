@@ -1,0 +1,315 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "User to validate Add functionality",
+        "description": "",
+        "id": "verify-play-sample-application---computers-database-features;user-to-validate-add-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9788932500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to url \"http://computer-database.herokuapp.com/computers?f\u003dace\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://computer-database.herokuapp.com/computers?f\u003dace",
+                  "offset": 23
+                }
+              ],
+              "location": "addTest.user_navigates_to_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 505230300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on Add new Computer button",
+            "match": {
+              "location": "addTest.user_clicks_on_Add_new_Computer_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12479300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Add Computer webpage dispalys",
+            "match": {
+              "location": "addTest.add_Computer_webpage_dispalys()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 610624800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"Vivek Computer\", \"2010-08-14\", \"2021-08-14\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vivek Computer",
+                  "offset": 13
+                },
+                {
+                  "val": "2010-08-14",
+                  "offset": 31
+                },
+                {
+                  "val": "2021-08-14",
+                  "offset": 45
+                }
+              ],
+              "location": "addTest.user_enters(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 419838400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 8,
+                "value": "#And user selects \"\u003cCompany\u003e\""
+              }
+            ],
+            "line": 9,
+            "name": "user clicks Create this computer button",
+            "match": {
+              "location": "addTest.user_clicks_Create_this_computer_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "User to validate Add functionality",
+        "description": "",
+        "id": "verify-play-sample-application---computers-database-features;user-to-validate-add-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8110499500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to url \"http://computer-database.herokuapp.com/computers?f\u003dace\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://computer-database.herokuapp.com/computers?f\u003dace",
+                  "offset": 23
+                }
+              ],
+              "location": "addTest.user_navigates_to_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 662633600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on Add new Computer button",
+            "match": {
+              "location": "addTest.user_clicks_on_Add_new_Computer_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15196000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Add Computer webpage dispalys",
+            "match": {
+              "location": "addTest.add_Computer_webpage_dispalys()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 604408300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"Vivek2 Computer\", \"2011-08-14\", \"2021-08-14\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vivek2 Computer",
+                  "offset": 13
+                },
+                {
+                  "val": "2011-08-14",
+                  "offset": 32
+                },
+                {
+                  "val": "2021-08-14",
+                  "offset": 46
+                }
+              ],
+              "location": "addTest.user_enters(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 417594400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 8,
+                "value": "#And user selects \"\u003cCompany\u003e\""
+              }
+            ],
+            "line": 9,
+            "name": "user clicks Create this computer button",
+            "match": {
+              "location": "addTest.user_clicks_Create_this_computer_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "User to validate Add functionality",
+        "description": "",
+        "id": "verify-play-sample-application---computers-database-features;user-to-validate-add-functionality;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16712032100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to url \"http://computer-database.herokuapp.com/computers?f\u003dace\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://computer-database.herokuapp.com/computers?f\u003dace",
+                  "offset": 23
+                }
+              ],
+              "location": "addTest.user_navigates_to_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 407003600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on Add new Computer button",
+            "match": {
+              "location": "addTest.user_clicks_on_Add_new_Computer_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12771300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Add Computer webpage dispalys",
+            "match": {
+              "location": "addTest.add_Computer_webpage_dispalys()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 573714900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"Vivek3 Computer\", \"2012-08-14\", \"2021-08-14\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vivek3 Computer",
+                  "offset": 13
+                },
+                {
+                  "val": "2012-08-14",
+                  "offset": 32
+                },
+                {
+                  "val": "2021-08-14",
+                  "offset": 46
+                }
+              ],
+              "location": "addTest.user_enters(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 490787000,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 8,
+                "value": "#And user selects \"\u003cCompany\u003e\""
+              }
+            ],
+            "line": 9,
+            "name": "user clicks Create this computer button",
+            "match": {
+              "location": "addTest.user_clicks_Create_this_computer_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Play sample application - Computers Database features",
+    "description": "",
+    "id": "verify-play-sample-application---computers-database-features",
+    "keyword": "Feature",
+    "uri": "C:/Users/avkin/Downloads/confused.com/src/main/java/Features/add.feature"
+  }
+]
